@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="icon" href="/assets/images/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+  integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/assets/css/contact.css">
+</head>
+<body>
+  <!-- nav -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="/profil-page.html">
+      <img src="/assets/images/logo1 p.png" alt="iconnav">
+    </a>
+    <ul>
+      <li>
+        <a href=""> Home</a>
+      </li>
+      <li>
+        <a href=""> My Project</a>
+      </li>
+    </div>
+    <div class="nav-right">
+      <ul>
+        <li><a href="/contact.html"> Contact </a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- contact form -->
+  <div class="container">
+    <h2>Get in touch with us!</h2>
+    <form action="">
+      <label for="name"> Name </label>
+      <input type="text" name="name" id="name" placeholder=" isi nama anda ">
+      <label for="email"> Email </label>
+      <input type="text" name="email" id="email" placeholder=" isi alamat email anda ">
+      <label for="phone"> Phone Number </label>
+      <input type="text" name="phone" id="phone" placeholder=" isi nomor telpon anda ">
+      <label for="subject"> Subject</label>
+      <select name="subject" id="subject">
+        <option value="Frontend Developer"> Frontend Developer</option>
+        <option value="Backend Developer">Backend Developer</option>
+        <option value="Fullstack Developer">Fullstack Developer</option>
+      </select>
+      <label for="message"> Message </label>
+      <textarea name="message" id="message" placeholder=" isi subject terlebih dahulu"></textarea>
+      <button type="submit"> Submit </button>
+    </form>
+  </div>
+</body>
+</html>
