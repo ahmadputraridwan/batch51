@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: white;
+  box-shadow: 0 0 30px #3d3d3d;
+  margin: 40px 40px 40px 40px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: ghostwhite;
+}
+
+.container h1 {
+  font-size: 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.container p {
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 1em;
+  padding-left: 120px;
+}
+button {
+  color: azure;
+  background-color: black;
+  border-radius: 20px;
+  width: 100px;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 8px;
+}
+.btn {
+  /* display: flex;
+  justify-content: center; */
+  margin-left: 520px;
+}
+.dwnld {
+  margin-left: 525px;
+  margin-top: 15px;
+  width: 150px;
+  font-size: 15px;  
+}
+.dwnld a {
+  text-decoration: none;
+  color: black;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  color: black ;
+  margin-top: 10px;
+}
+.sm-icon {
+  margin: 5px;
+}
+/* .container {
+  /* height: 250px auto; */
+  /* width: 320px auto; */
+/* } */ 
+img {
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  text-align: center;
+}
+.foto {
+  display: flex;
+  justify-content: center;
+  border: double;
+  border-color: white;
+}
+.content {
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  width: 400px auto;
+
+}
+
+
+
+

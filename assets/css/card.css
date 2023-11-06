@@ -1,0 +1,63 @@
+
+.container {
+margin: 35px auto;
+  padding: 20px 30px;
+  width: 70%;
+  height: 60%;
+  box-shadow: 0 0 10px grey;
+  border-radius: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container p {
+  text-align: justify;
+  margin-top: 5px;
+  padding-left: 175px;
+}
+.container h1 {
+  font-size: 2.5em;
+  text-transform: capitalize;
+  padding-left: 175px;
+}
+.btn {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 8px 26px;
+  cursor: pointer;
+}
+.contact {
+  padding-left: 175px;
+}
+.download {
+  margin-top: 15px;
+  padding-left: 175px;
+}
+.download a {
+  text-decoration: none;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.icon a {
+  font-size: 50px;
+  color: black;
+  margin: 10px;
+}
+.img {
+  width: 450px;
+  margin: 3px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px grey;
+  text-align: center;
+}
+.img img { 
+  width: 450px;
+  border-radius: 10px;
+}
+.img p{
+  text-align: center;
+  padding: 10px;
+}
